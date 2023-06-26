@@ -1,3 +1,24 @@
+# Solution
+MUMBAI
+MiPrimerNftFksF Proxy Address: 0x2775Dd53D58fE3306A76518ce1289BEa5cE1ABb4
+MiPrimerNftFksF Impl Address: 0x73BCFa45d48974FdEafA1E9fE0926C4b176354a9
+MiPrimerNftFksF Address:  0x2775Dd53D58fE3306A76518ce1289BEa5cE1ABb4
+
+GOERLI
+USDC Address:  0x58fAf8E376AE31B98fc758ec0BD4A28d9fe4Dd25
+
+MiPrimerTokenFksF Proxy Address: 0xC70a1D00e5015Ea67369c763BFE7587dbD98b094
+MiPrimerTokenFksF Impl Address: 0xbC2fF316EdF87F71a6B1b29F93Cf469e776A8148
+
+PublicSale Proxy Address: 0xF530Ee99444BCbcC2a351A290Bb0526A38eBCb63
+PublicSale Impl Address: 0xc9D3C14A00077d7EfcaB14b5583B85C81752b441
+
+EVIDENCIAS
+![plot](./e1.png)
+![plot](./e2.png)
+![plot](./e3.png)
+![plot](./e4.png)
+
 # Bootcamp Presencial - Batch 01
 
 ## Práctica Calificada 3

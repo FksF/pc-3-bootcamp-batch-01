@@ -1,0 +1,12 @@
+{
+  "name": "LUFFY#24",
+  "description": "NFT LUFFY collection by FksF inspired in One Piece Anime LUFFY culture",
+  "image": "ipfs://QmQUhBkbhBEGKSsmfCofjUppmSwDzx4Xd45FGe46vudAWQ/24.png",
+  "attributes": [
+    { "trait_type": "FRUTA", "value": "FRUTA SIERRA" },
+    { "trait_type": "EAST", "value": "TRONCO" },
+    { "trait_type": "MARINE", "value": "MARINE ROSA" },
+    { "trait_type": "HAT", "value": "GANGSTER" },
+    { "trait_type": "CARA", "value": "OJOS BASE" }
+  ]
+}

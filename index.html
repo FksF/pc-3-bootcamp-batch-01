@@ -6,60 +6,61 @@
     <title>
         <%= htmlWebpackPlugin.options.title %>
     </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
-<body>
-    <div>
-        <button id="connect">Conectar con Metamask</button>
+<body class="container p-5 bg-dark text-white">
+    <div class="text-center">
+        <button id="connect" class="btn btn-warning">Conectar con Metamask</button>
     </div>
     </br>
-    <div>
-        <button id="switch">Cambiar a Mumbai</button>
+    <div class="text-center">
+        <button id="switch" class="btn btn-warning">Cambiar a Mumbai</button>
     </div>
 
     </br>
     <h2>Balances</h2>
-    <div>
+    <div class="my-3">
         <label for="usdcBalance">USD Coin Balance:</label>
         <span id="usdcBalance"></span>
-        <button id="usdcUpdate">Refresh</button>
+        <button id="usdcUpdate" class="btn btn-primary">Refresh</button>
     </div>
-    <div>
+    <div class="my-3">
         <label for="miPrimerTknBalance">Mi Primer Token Balance:</label>
         <span id="miPrimerTknBalance"></span>
-        <button id="miPrimerTknUpdate">Refresh</button>
+        <button id="miPrimerTknUpdate" class="btn btn-primary">Refresh</button>
     </div>
     </br>
 
     <h2>Mi Primer Token (Goerli)</h2>
     </br>
-    <div>
+    <div class="d-flex">
         <label for="approveInput">Approve Mi Primer Token</label>
-        <input type="text" id="approveInput" name="approveInput">
-        <button id="approveButton">Approve</button>
+        <input type="text" class="form-control w-50 mx-3" id="approveInput" name="approveInput">
+        <button id="approveButton" class="btn btn-primary">Approve</button>
         <span id="approveError" style="color: red;"></span>
     </div>
 
     <h2>Public Sale (Goerli)</h2>
     </br>
-    <div>
+    <div class="d-flex">
         <label for="purchaseInput">Purchase By Id</label>
-        <input type="text" id="purchaseInput" name="purchaseInput">
-        <button id="purchaseButton">Purchase</button>
+        <input type="text" class="form-control w-50 mx-3" id="purchaseInput" name="purchaseInput">
+        <button id="purchaseButton" class="btn btn-primary">Purchase</button>
         <span id="purchaseError" style="color: red;"></span>
     </div>
 
     </br>
     <div>
         <label for="purchaseEthInput">Purchase Nft (with Ether)</label>
-        <button id="purchaseEthButton">Purchase with Ether</button>
+        <button id="purchaseEthButton" class="btn btn-primary">Purchase with Ether</button>
         <span id="purchaseEthError" style="color: red;"></span>
     </div>
 
     </br>
     <div>
         <label for="sendEtherInput">Send Ether to Contract</label>
-        <button id="sendEtherButton">Send</button>
+        <button id="sendEtherButton" class="btn btn-primary">Send</button>
         <span id="sendEtherError" style="color: red;"></span>
     </div>
 
@@ -69,6 +70,16 @@
 
     </div>
 
+    <br>
+    <div>
+        <button id="seeAvailableNFTsButton" class="btn btn-primary">See Available NFTs</button>
+        <div>
+            <h2>Lista de NFTs Disponibles:</h2>
+            <div id="availableNFTsList">
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
